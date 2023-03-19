@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="GoogleSearch" />
+        <module name="STC" />
       </profile>
     </annotationProcessing>
   </component>
