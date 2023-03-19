@@ -11,7 +11,7 @@ public class Subscribe extends Base.base{
     SoftAssert softAssert=new SoftAssert();
 
     @Test(priority = 1)
-    public void allPackagesAppeareForKuwait(Method method) throws InterruptedException
+    public void allPackagesAppeareForKuwait()
     {
         stcWebSite.home=new Home(driver);
         stcWebSite.home.clickOnCountry();
@@ -28,7 +28,7 @@ public class Subscribe extends Base.base{
 
     }
     @Test(priority = 1)
-    public void allPackagesAppeareForKSA(Method method) throws InterruptedException
+    public void allPackagesAppeareForKSA()
     {
         stcWebSite.home=new Home(driver);
         stcWebSite.home.clickOnCountry();
@@ -45,7 +45,7 @@ public class Subscribe extends Base.base{
 
     }
     @Test(priority = 1)
-    public void allPackagesAppeareForBahrain(Method method) throws InterruptedException
+    public void allPackagesAppeareForBahrain()
     {
         stcWebSite.home=new Home(driver);
         stcWebSite.home.clickOnCountry();

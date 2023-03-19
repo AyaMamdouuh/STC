@@ -95,7 +95,6 @@ public class base {
         driver.get(config_properties.getProperty("url"));
         logger=extent.startTest(method.getName());
     }
-
     @AfterMethod
     public void getStatus(ITestResult result) throws IOException {
        // TestUtils.takePicture(method.getName());

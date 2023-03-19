@@ -4,9 +4,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/Aya-Mamdouh/Documents/GitHub/GoogleSearch">
         <classes>
             <class name="Tests.Subscribe">
-                <methods>
-                    <include name="searchUsingValidText"/>
-                </methods>
+
             </class>
         </classes>
     </test>
